@@ -18,7 +18,7 @@
     "start-ts": "react-scripts-ts start",
     "start": "npm-run-all -p watch-css start-ts",
     "build-ts": "react-scripts-ts build",
-    "build": "npm-run-all build-css build-ts",
+    "build": "npm-run-all -s build-css build-ts",
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
